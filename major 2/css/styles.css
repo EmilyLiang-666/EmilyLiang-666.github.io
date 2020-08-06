@@ -1,0 +1,700 @@
+/* Box-sizing behaviour */
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* General element selectors */
+
+body {
+  background-image: linear-gradient(#c7cdf5, #f7d0b4, #f2f3b4, #c7cef3);
+  font-family: 'Vast Shadow', cursive;
+}
+
+a {
+  margin: 10px;
+  color: black;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+
+p {
+  margin: 10px;
+  color: black;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 30px;
+}
+
+h1 {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+}
+
+.citation-page {
+  font-family: 'Vast Shadow', cursive;
+  font-size: 11px;
+}
+
+.start-hidden {
+    display: none;
+}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 11px;
+}
+
+
+/* Previous button inside month header 
+.prev {
+  float: left;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background-color: rgb(0, 0, 0);
+  border: 1px;
+  border-radius: 100%;
+}
+
+.next {
+  float: right;
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 3px;
+  background-color: rgb(0, 0, 0);
+  border: 1px;
+}
+*/
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 20px;
+  padding: 10px 0;
+}
+
+.button-Sun {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Mon {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Tue {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Wed {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Thu {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Fri {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.button-Sat {
+  border: 1px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  background-color: #f6d4b4;
+}
+
+.grid-container-1 {
+  display: grid;
+  grid-template-rows: repeat(1, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 45px;
+  padding: 15px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+}
+
+/* Days (1-31) */
+.grid-container-2 {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 30px;
+  margin: 10em 0;
+  padding: 20px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+}
+
+.days {
+  padding: 20px 10px;
+  margin: 20px;
+}
+
+.button-empty {
+  border: 1px;
+  background-color: none;
+  background-color: #f5dfb4;
+}
+
+/* photos */
+.button-calendar {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
+  padding: 2px;
+  border: 1px;
+  background-color: #d5dadf;
+}
+
+.images {
+  margin: 20px;
+  padding: 10px 0;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 30px;
+  padding: 20px;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+}
+
+
+.July-01 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.button-07-01 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-02 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.button-07-02 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-05 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.button-07-05 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-09 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-09 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-10 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-10 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-12 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-12 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-13 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-13 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-14 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-14 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-15 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-15 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-20 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-20 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-22 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-22 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-24 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-24 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-25 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-25 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-28 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-28 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-29 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-29 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-30 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-30 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+.July-31 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+.button-07-31 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+}
+
+
+/* no photo */
+.button-07-03 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-04 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-06 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-07 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-08 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-11 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-16 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-17 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-18 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-19 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-21 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-23 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-26 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+.button-07-27 {
+  background-color: white;
+  border-radius: 100%;
+  font-family: 'Vast Shadow', cursive;
+  border: 1px;
+}
+
+
+
+
+/* footnotes*/
+.footnotes {
+  display: grid;
+  grid-template-rows: repeat(1, 2fr);
+  grid-template-columns: repeat(1, 1fr);
+  margin: 20px;
+  grid-gap: 5px;
+}
+
+.photos-page {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
+}
+
+/* second page*/
+.photos-page-2 {
+  color: black;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-family: 'Vast Shadow', cursive;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.back {
+  grid-column: 7 / span 1;
+  grid-row: 3 / span 1;
+  text-align: center;
+}
+
+.title {
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July01 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July02 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July05 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 4 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July09 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 5 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July10 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 6 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July12 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 7 / span 1;
+  grid-row: 1 / span 1;
+}
+
+.July13 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 1 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July14 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July15 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July20 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 4 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July22 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 5 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July24 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 6 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July25 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 7 / span 1;
+  grid-row: 2 / span 1;
+}
+
+.July28 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.July29 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.July30 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
+
+.July31 {
+  max-width: 100%;
+  height:auto;
+  float: center;
+  grid-column: 4 / span 1;
+  grid-row: 3 / span 1;
+}
+
+
