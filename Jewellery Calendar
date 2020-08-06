@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jewellery Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<!-- celedent form
+      I really like these celedent posters, but I could find them on the internet, to I want to create one-->
+<div class="month">
+	<!--
+   <button class="prev"><</button>
+   <button class="next">></button>-->
+   <p>July<br>2020</p> 
+</div>
+
+
+
+<div class="weekdays grid-container-1">
+<button class="button-Sun">Sun</button>
+<button class="button-Mon">Mon</button>
+<button class="button-Tue">Tue</button>
+<button class="button-Wed">Wed</button>
+<button class="button-Thu">Thu</button>
+<button class="button-Fri">Fri</button>
+<button class="button-Sat">Sat</button>
+</div>
+
+<div class="days grid-container-2">
+<button type="button" class="button-empty"></button>
+<button type="button" class="button-empty"></button>
+<button type="button" class="button-empty"></button>
+
+<button type="button" class="button-07-01">1</button>
+<button type="button" class="button-07-02">2</button>
+<button type="button" class="button-07-03">3</button>
+<button type="button" class="button-07-04">4</button>
+<button type="button"class="button-07-05">5</button>
+<button type="button" class="button-07-06">6</button>
+<button type="button" class="button-07-07">7</button>
+<button type="button" class="button-07-08">8</button>
+<button type="button" class="button-07-09">9</button>
+<button type="button" class="button-07-10">10</button>
+<button type="button" class="button-07-11">11</button>
+<button type="button" class="button-07-12">12</button>
+<button type="button" class="button-07-13">13</button>
+<button type="button" class="button-07-14">14</button>
+<button type="button" class="button-07-15">15</button>
+<button type="button" class="button-07-16">16</button>
+<button type="button" class="button-07-17">17</button>
+<button type="button" class="button-07-18">18</button>
+<button type="button" class="button-07-19">19</button>
+<button type="button" class="button-07-20">20</button>
+<button type="button" class="button-07-21">21</button>
+<button type="button" class="button-07-22">22</button>
+<button type="button" class="button-07-23">23</button>
+<button type="button" class="button-07-24">24</button>
+<button type="button" class="button-07-25">25</button>
+<button type="button" class="button-07-26">26</button>
+<button type="button" class="button-07-27">27</button>
+<button type="button" class="button-07-28">28</button>
+<button type="button" class="button-07-29">29</button>
+<button type="button" class="button-07-30">30</button>
+<button type="button" class="button-07-31">31</button>
+</div>
+
+<!-- celedent photos -->
+<div class="images grid-container-3">
+	
+	<img class="July-01 start-hidden" alt="2020-07-01" src="images/2020-07-01.jpg" />
+	<img class="July-02 start-hidden" alt="2020-07-02" src="images/2020-07-02.jpg" />
+	<img class="July-05 start-hidden" alt="2020-07-05" src="images/2020-07-05.jpg" />
+	<img class="July-09 start-hidden" alt="2020-07-09" src="images/2020-07-09.jpg" />
+	<img class="July-10 start-hidden" alt="2020-07-10" src="images/2020-07-10.jpg" />
+	<img class="July-12 start-hidden" alt="2020-07-12" src="images/2020-07-12.jpg" />
+	<img class="July-13 start-hidden" alt="2020-07-13" src="images/2020-07-13.jpg" />
+	<img class="July-14 start-hidden" alt="2020-07-14" src="images/2020-07-14.jpg" />
+	<img class="July-15 start-hidden" alt="2020-07-15" src="images/2020-07-15.jpg" />
+	<img class="July-20 start-hidden" alt="2020-07-20" src="images/2020-07-20.jpg" />
+	<img class="July-22 start-hidden" alt="2020-07-22" src="images/2020-07-22.jpg" />
+	<img class="July-24 start-hidden" alt="2020-07-24" src="images/2020-07-24.jpg" />
+	<img class="July-25 start-hidden" alt="2020-07-25" src="images/2020-07-25.jpg" />
+	<img class="July-28 start-hidden" alt="2020-07-28" src="images/2020-07-28.jpg" />
+	<img class="July-29 start-hidden" alt="2020-07-29" src="images/2020-07-29.jpg" />
+	<img class="July-30 start-hidden" alt="2020-07-30" src="images/2020-07-30.jpg" />
+	<img class="July-31 start-hidden" alt="2020-07-31" src="images/2020-07-31.jpg" />
+
+
+</div>
+
+
+
+
+
+<!-- catation page. 
+	They are from a Chinese app Wechat, I couldn't find it on the web, so I show all the ual in a separate page.-->
+
+<div class="footnotes">
+	<button type="button" class="button-calendar">Calendar Page</button>
+    <a class="photos-page" href="page2.html">July Photos Page</a>
+</div>
+
+
+ <script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</div>
+</div>
+  </body>
+</html>
+
+
