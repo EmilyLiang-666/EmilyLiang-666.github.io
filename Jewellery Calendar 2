@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Jewellery Calendar</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="photos-page-2">
+     <a class="back" href="html.html"><br><br>Back to Calendar</a>
+     <a class="title"><br><br>July Photos:</a>
+
+
+
+
+<a class="July01" href="https://mp.weixin.qq.com/s/sn58w8mN_etnPDLRU-P5vg">
+	<img class="July-01" alt="2020-07-01" src="images/2020-07-01.jpg" /></a>
+
+<a class="July02" href="https://mp.weixin.qq.com/s/WbjIakWn0vwkm2di1XD4Ow">
+	<img class="July-02" alt="2020-07-02" src="images/2020-07-02.jpg" /></a>
+
+<a class="July05" href="https://mp.weixin.qq.com/s/F42tDGR-CcX--hsfTyreDw">
+	<img class="July-05" alt="2020-07-05" src="images/2020-07-05.jpg" />
+</a>
+<a class="July09" href="https://mp.weixin.qq.com/s/VGYqr93VVU6ozZ_7ZlJOog">
+	<img class="July-09" alt="2020-07-09" src="images/2020-07-09.jpg" />
+</a>
+<a class="July10" href="https://mp.weixin.qq.com/s/bcImK1ud3mJi6QbF8Dvjtg">
+	<img class="July-10" alt="2020-07-10" src="images/2020-07-10.jpg" />
+</a>
+<a class="July12" href="https://mp.weixin.qq.com/s/fP9vf5YrdsQi30mvnYXx4Q">
+	<img class="July-12" alt="2020-07-12" src="images/2020-07-12.jpg" />
+</a>
+<a class="July13" href="https://mp.weixin.qq.com/s/yaHRMurm3Q-SVcZZoaVwkQ">
+	<img class="July-13" alt="2020-07-13" src="images/2020-07-13.jpg" />
+</a>
+<a class="July14" href="https://mp.weixin.qq.com/s/OlVrIFILpGSKaWDT56BGRA">
+	<img class="July-14" alt="2020-07-14" src="images/2020-07-14.jpg" />
+</a>
+<a class="July15" href="https://mp.weixin.qq.com/s/L9BcUWeAWFhHr450GGu1bQ">
+	<img class="July-15" alt="2020-07-15" src="images/2020-07-15.jpg" />
+</a>
+<a class="July20" href="https://mp.weixin.qq.com/s/XiKl2G1m4UmUPSxecibxlA">
+	<img class="July-20" alt="2020-07-20" src="images/2020-07-20.jpg" />
+</a>
+<a class="July22" href="https://mp.weixin.qq.com/s/mJWuoVj-_YGxIMsuD71YrA">
+	<img class="July-22" alt="2020-07-22" src="images/2020-07-22.jpg" />
+</a>
+<a class="July24" href="https://mp.weixin.qq.com/s/qRyPgS7artToxyJSm05TKw">
+	<img class="July-24" alt="2020-07-24" src="images/2020-07-24.jpg" />
+</a>
+<a class="July25" href="https://mp.weixin.qq.com/s/PHcNXCc8sZSGWArQicBcrQ">
+	<img class="July-25" alt="2020-07-25" src="images/2020-07-25.jpg" />
+</a>
+<a class="July28" href="https://mp.weixin.qq.com/s/OtMceOMIcatFM2t3JVosWQ">
+	<img class="July-28" alt="2020-07-28" src="images/2020-07-28.jpg" />
+</a>
+<a class="July29" href="https://mp.weixin.qq.com/s/tXBvLj1FY7-tqTKGt8gWEA">
+	<img class="July-29" alt="2020-07-29" src="images/2020-07-29.jpg" />
+</a>
+<a class="July30" href="https://mp.weixin.qq.com/s/QdjBdTGEHKyuAEb3dMqJ_g">
+	<img class="July-30" alt="2020-07-30" src="images/2020-07-30.jpg" />
+</a>
+<a class="July31" href="https://mp.weixin.qq.com/s/ZWFm4FN4m2raSemyosf-PQ">
+	<img class="July-31" alt="2020-07-31" src="images/2020-07-31.jpg" />
+</a>
+
+
+
+</div>
+
+
+
+
+
+<script
+    src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</div>
+</div>
+  </body>
+</html>
